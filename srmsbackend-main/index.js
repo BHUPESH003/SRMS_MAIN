@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use("/uploads", express.static(__dirname + "/uploads"));
 
-app.get("/", (req, res) => {
+app.use("/", (req, res) => {
   res
     .status(201)
     .json(`Hey There ! 😊😊.This is a HomePage and also a default Route.❤️`);
