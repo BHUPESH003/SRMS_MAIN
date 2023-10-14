@@ -23,12 +23,14 @@ import BuffaloeBanner from "../assets/images/buffaloe-banner-image.jpg";
 import PaneerBanner from "../assets/images/panner-banner-image.jpg";
 import DesiGheeBanner from "../assets/images/desi-ghee-banner-image.avif";
 
-import APPSS1 from "../assets/images/AppSS1.png";
-import APPSS2 from "../assets/images/AppSS2.png";
-import APPSS3 from "../assets/images/AppSS3.png";
+
+import AppUi1 from '../assets/images/AppSS1.png'
+import AppUi2 from '../assets/images/AppSS1.png'
+import AppUi3 from '../assets/images/AppSS1.png'
+
 
 // constants.js
-export const APP_SCREENSHOTS = [APPSS1, APPSS2, APPSS3];
+export const APP_SCREENSHOTS = [AppUi1, AppUi2, AppUi3];
 
 export const PAGES = [
   { id: 1, name: "Home", path: "/" },
