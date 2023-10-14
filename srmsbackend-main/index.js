@@ -12,7 +12,7 @@ connectDb();
 const port = process.env.PORT || 5000;
 
 // Use the cors middleware to enable CORS for all routes
-app.use(cors({ credentials: true, origin: "http://localhost:5173" }));
+app.use(cors({ credentials: true, origin: "https://srms-main.vercel.app" }));
 app.use(express.json());
 app.use(cookieParser());
 app.use("/uploads", express.static(__dirname + "/uploads"));
